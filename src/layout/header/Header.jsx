@@ -11,7 +11,6 @@ import { useState, useMemo } from 'react';
 import { useTheme as useCustomTheme } from "../../providers/CustomThemeProvider";
 import { useCurrentUser } from "../../users/providers/UserProvider";
 import ROUTES from "../../routes/routesDict";
-
 import MobileNavigation from "./MobileNavigation";
 import DesktopNavigation from "./DesktopNavigation";
 import AuthSection from "./AuthSection";
